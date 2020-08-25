@@ -1,0 +1,40 @@
+@import "../../../../../../static/css/Reset.less";
+
+#controls-bar {
+    position: absolute;
+    right: 0px;
+    margin: 0px 15px 0px 0px;
+    margin-top: calc(100vh - 65px);
+    background-color: @background1;
+    
+    transition: margin-right 0.3s linear;
+    -moz-transition: margin-right 0.3s linear;
+    -o-transition: margin-right 0.3s linear;
+    -webkit-transition: margin-right 0.3s linear;
+    
+    &.layers-sidebar-opened {
+        margin-right: 315px;
+    }
+
+    ul {
+        li {
+            padding: 12px 14px;
+            color: @color3;
+            background-color: @background1;
+            cursor: pointer;
+    
+            transition: color 0.1s linear;
+            -moz-transition: color 0.1s linear;
+            -o-transition: color 0.1s linear;
+            -webkit-transition: color 0.1s linear;
+    
+            &:hover {
+                
+                color: @color1;
+            }
+            &.layers-sidebar-opened {
+                color: @color4;
+            }
+        }
+    } 
+}

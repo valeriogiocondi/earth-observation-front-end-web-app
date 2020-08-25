@@ -1,0 +1,94 @@
+@import "../../../../../../static/css/Reset.less";
+
+#layers-sidebar {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 100%;
+    padding: 15px;
+    margin-right: -300px;
+    color: @color6;
+    background-color: @background1;
+    box-sizing: border-box;
+    
+    transition: margin-right 0.3s linear;
+    -moz-transition: margin-right 0.3s linear;
+    -o-transition: margin-right 0.3s linear;
+    -webkit-transition: margin-right 0.3s linear;
+    
+    &.opened {
+        margin-right: 0px;
+    }
+
+    & > header {
+        margin-bottom: 50px;
+        
+        .hide-layers-sidebar {
+            
+            margin-top: 0px;
+            color: @color1;
+            cursor: pointer;
+            
+            transition: margin-right 0.3s linear;
+            -moz-transition: margin-right 0.3s linear;
+            -o-transition: margin-right 0.3s linear;
+            -webkit-transition: margin-right 0.3s linear;
+
+            &:hover {
+                color: @color4;
+                font-weight: bold;
+                    
+                transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                -o-transition: all 0.3s linear;
+                -webkit-transition: all 0.3s linear;
+            }
+        }
+    }
+
+    .layer-list {
+        margin-bottom: 30px;
+
+        .selectable {
+            cursor: pointer;
+            color: @color5;
+            
+            &:hover {
+                color: @color3;
+        
+                transition: 0.5s linear;
+                -moz-transition: 0.5s linear;
+                -o-transition: 0.5s linear;
+                -webkit-transition: 0.5s linear;
+            }
+            &.selected {
+                color: @color1;
+                font-weight: bold;
+                
+                transition: 0.1s linear;
+                -moz-transition: 0.1s linear;
+                -o-transition: 0.1s linear;
+                -webkit-transition: 0.1s linear;
+            }
+        }
+
+        .dnd-list-item {
+            padding: 13px 0px;
+            text-transform: uppercase;
+            
+            &:first-child {
+                border-top: solid #484848 1px;
+            }
+
+            .details {
+                font-size: 11px;
+                text-decoration: underline;
+
+                &:hover {
+                    color: @color4;
+                }
+            }   
+        }
+    }
+    
+}
