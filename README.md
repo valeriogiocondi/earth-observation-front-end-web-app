@@ -45,7 +45,7 @@ This layer has the purpose to separate the less-direct logic of the page, like l
 * [Node 10+](https://nodejs.org/en/)
 * [TypeScript](https://www.typescriptlang.org/)
 * [React](https://reactjs.org/)
-* [Redux](redux.js.org/)
+* [Redux](https://redux.js.org/)
 
 ## Installation
 ```
