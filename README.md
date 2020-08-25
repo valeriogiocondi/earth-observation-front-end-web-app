@@ -24,16 +24,16 @@ XML response is structured as a list of Layers, and for each one we have plenty 
 ## 3. Front-end Architecture
 I used a simple MVC architecture:
 
-## 3.1 Model
+#### 3.1 Model
 This layer contains the models about WMS standard and the Redux store.
 
-## 3.2 View
+#### 3.2 View
 This layer contains the UI: pages and other reusable components like popup.
 
-## 3.3 Controller
+#### 3.3 Controller
 This layer has the purpose to separate the less-direct logic of the page, like logic about layers and projections, as well map initialization.
 
-## 3.4 Miscellanous
+#### 3.4 Miscellanous
     * Types: not part of the WMS data - i.e. the models - like http-response
     * Utils: features like full-screen mode and XML Parser
     * Services: a class to make REST call
