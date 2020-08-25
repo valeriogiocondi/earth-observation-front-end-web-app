@@ -1,4 +1,4 @@
-# Earth Obrservation Client
+# Earth Obrservation Client  &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
 This is a javascript web application used for Earth Oberservation purpose.
 
 
@@ -14,10 +14,10 @@ XML response is structured as a list of Layers, and for each one we have plenty 
 
 ## 2. Technologies
 
-* React
-* Typescript
-* Redux - state container
-* LESS - CSS preprocessor
+* [React](https://reactjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Redux](redux.js.org/) - state container
+* [LESS](http://lesscss.org/) - CSS preprocessor
 * [OpenLayer](openlayers.org/): library implements map and layers
 * [Proj4js](http://proj4js.org/) to transform coordinate system to another
 
@@ -40,19 +40,22 @@ This layer has the purpose to separate the less-direct logic of the page, like l
 
 
 # Getting Started
-Go to package.json and 
 
 ## Prerequisite
-* Node 10+
-* TypeScript
-* React
-* Redux
+* [Node 10+](https://nodejs.org/en/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [React](https://reactjs.org/)
+* [Redux](redux.js.org/)
 
 ## Installation
-  npm install;
+```
+npm install;
+```
 
 ## Run Application
-  npm run start;
+```
+npm run start;
+```
   
 ## License
 The code in this project is released under the [MIT License](https://github.com/valeriogiocondi/earth-observation-front-end-web-app/blob/master/LICENSE).
