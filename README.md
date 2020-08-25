@@ -34,6 +34,6 @@ This layer contains the UI: pages and other reusable components like popup.
 This layer has the purpose to separate the less-direct logic of the page, like logic about layers and projections, as well map initialization.
 
 #### 3.4 Miscellanous
-    * Types: not part of the WMS data - i.e. the models - like http-response
-    * Utils: features like full-screen mode and XML Parser
-    * Services: a class to make REST call
+* Types: not part of the WMS data - i.e. the models - like http-response
+* Utils: features like full-screen mode and XML Parser
+* Services: a class to make REST call
