@@ -14,7 +14,7 @@ XML response is structured as a list of Layers, and for each one we have plenty 
 
 ## 2. Technologies
 
-* [React](https://reactjs.org/){:target="_blank"}
+* [React](https://reactjs.org/)
 * [TypeScript](https://www.typescriptlang.org/)
 * [Redux](redux.js.org/) - state container
 * [LESS](http://lesscss.org/) - CSS preprocessor
