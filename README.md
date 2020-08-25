@@ -1,4 +1,4 @@
-# Earth Obrservation Client  &middot; [GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+# Earth Obrservation Client &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)
 This is a javascript web application used for Earth Oberservation purpose.
 
 
