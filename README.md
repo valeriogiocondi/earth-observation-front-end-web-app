@@ -37,3 +37,22 @@ This layer has the purpose to separate the less-direct logic of the page, like l
 * Types: not part of the WMS data - i.e. the models - like http-response
 * Utils: features like full-screen mode and XML Parser
 * Services: a class to make REST call
+
+
+# Getting Started
+Go to package.json and 
+
+## Prerequisite
+* Node 10+
+* TypeScript
+* React
+* Redux
+
+## Installation
+  npm install;
+
+## Run Application
+  npm run start;
+  
+## License
+The code in this project is released under the [MIT License](https://github.com/valeriogiocondi/earth-observation-front-end-web-app/blob/master/LICENSE).
