@@ -9,7 +9,7 @@ export default (state = [], action: actionType) => {
   
       case 'STORE_ALL_LAYERS': {
       
-        return [action.payload]
+        return Object.assign([], action.payload);
       }
   
       case 'ADD_MAP_LAYER': {
