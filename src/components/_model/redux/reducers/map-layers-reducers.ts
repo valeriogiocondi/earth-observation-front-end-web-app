@@ -14,7 +14,7 @@ export default (state = [], action: actionType) => {
   
       case 'ADD_MAP_LAYER': {
   
-        return Object.assign([], state, [...state, action.payload]);
+        return Object.assign([], [...state, action.payload]);
       }
   
       case 'REMOVE_MAP_LAYER': {
