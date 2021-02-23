@@ -8,15 +8,13 @@ export default (state = [], action: actionType) => {
     switch (action.type) {
   
       case 'STORE_ALL_LAYERS': {
-
-        state = Object.assign([], action.payload);
-        return Object.assign([], state, state);
+      
+        return [action.payload]
       }
   
       case 'ADD_MAP_LAYER': {
   
-        state.push(action.payload);
-        return Object.assign([], state, state);
+        return Object.assign([], state, [...state, action.payload]);
       }
   
       case 'REMOVE_MAP_LAYER': {
